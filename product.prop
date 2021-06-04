@@ -1,5 +1,8 @@
 # Audio
 af.fast_track_multiplier=1
 
+# gfx acceleration
+ro.config.avoid_gfx_accel=true
+
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
