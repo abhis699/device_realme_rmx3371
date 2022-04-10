@@ -151,6 +151,7 @@ on property:vendor.post_boot.parsed=1
     # IRQ Tuning
     # IRQ 300: msm_drm
     # IRQ 338: kgsl_3d0_irq
+    write /proc/irq/default_smp_affinity f
     write /proc/irq/300/smp_affinity_list 2
     write /proc/irq/338/smp_affinity_list 1
 
