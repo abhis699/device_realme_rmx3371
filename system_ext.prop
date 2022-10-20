@@ -12,7 +12,7 @@ persist.sys.brightness.low.gamma=true
 
 # Display
 debug.sf.enable_hwc_vds=1
-debug.sf.latch_unsignaled=1
+debug.sf.auto_latch_unsignaled=true
 
 # CNE
 persist.vendor.cne.feature=1
