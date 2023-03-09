@@ -76,4 +76,7 @@
          Setting this to track config_displayWhiteBalanceColorTemperatureDefault (currently 6500K). -->
      <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
 
+    <!-- the number of the max cached processes in the system. -->
+    <integer name="config_customizedMaxCachedProcesses">64</integer>
+
 </resources>
