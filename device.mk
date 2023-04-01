@@ -196,6 +196,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# CameraGo V4
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V4
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
