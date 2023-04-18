@@ -71,5 +71,9 @@
 
      <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
      <bool name="config_telephony5gNonStandalone">true</bool>
+	 
+     <!-- Maximum color temperature, in Kelvin, supported by Night display.
+         Setting this to track config_displayWhiteBalanceColorTemperatureDefault (currently 6500K). -->
+     <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
 
 </resources>
