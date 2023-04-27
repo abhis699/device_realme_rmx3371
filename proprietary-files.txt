@@ -2367,10 +2367,9 @@ vendor/lib64/libtrustedapploader.so
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+odm/etc/wifi/regdb.bin
+odm/etc/wifi/regdb_version
 vendor/bin/cnss-daemon
-vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # WiFi Display (system)
 system/framework/WfdCommon.jar
