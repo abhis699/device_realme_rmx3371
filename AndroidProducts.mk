@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_rmx3371.mk
+    $(LOCAL_DIR)/evolution_RMX3371.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_rmx3371-user \
-    evolution_rmx3371-userdebug \
-    evolution_rmx3371-eng
+    evolution_RMX3371-user \
+    evolution_RMX3371-userdebug \
+    evolution_RMX3371-eng

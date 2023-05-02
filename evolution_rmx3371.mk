@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from rmx3371 device
-$(call inherit-product, device/realme/rmx3371/device.mk)
+# Inherit from RMX3371 device
+$(call inherit-product, device/realme/RMX3371/device.mk)
 
 # Inherit some common Evolution X stuff
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
@@ -19,8 +19,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ANIMATIONS := true
 EVO_BUILD_TYPE := OFFICIAL
 
-PRODUCT_NAME := evolution_rmx3371
-PRODUCT_DEVICE := rmx3371
+PRODUCT_NAME := evolution_RMX3371
+PRODUCT_DEVICE := RMX3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3371
