@@ -559,6 +559,11 @@
          activated. -->
     <integer name="config_nightDisplayColorTemperatureDefault">2339</integer>
 
+    <!-- Default value for proximity check on screen wake
+     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
         <item>540</item>  <!-- <item>sensorLocationX</item> -->
