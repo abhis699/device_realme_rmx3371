@@ -554,6 +554,16 @@
     <!-- Defines the sysfs attribute path used by the device
          to enable/disable DC dimming. -->
     <string name="config_deviceDcDimmingSysfsNode">/sys/kernel/oplus_display/dimlayer_bl_en</string>
+	
+	<!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
+    
+    <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
+         activated. -->
+    <integer name="config_nightDisplayColorTemperatureDefault">2339</integer>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
