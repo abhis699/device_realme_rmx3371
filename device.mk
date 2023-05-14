@@ -360,6 +360,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.perf.rc
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
