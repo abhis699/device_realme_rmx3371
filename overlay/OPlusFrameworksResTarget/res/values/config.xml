@@ -45,6 +45,8 @@
         <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
         <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
         <item>"/system/bin/surfaceflinger"</item>
+        <item>"/system_ext/priv-app/daxService/daxService.apk"</item>
+        <item>"/system_ext/priv-app/MotoDolbyDax3/MotoDolbyDax3.apk"</item>
     </string-array>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
@@ -618,7 +620,7 @@
     <!-- The default intensity level for media vibrations. See
          Settings.System.MEDIA_VIBRATION_INTENSITY more details on the constant values and
          meanings. -->
-    <integer name="config_defaultMediaVibrationIntensity">3</integer>
+    <integer name="config_defaultMediaVibrationIntensity">2</integer>
     <!-- The default intensity level for notification vibrations. See
          Settings.System.NOTIFICATION_VIBRATION_INTENSITY more details on the constant values and
          meanings. -->
