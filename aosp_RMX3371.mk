@@ -11,18 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from RMX3371 device
 $(call inherit-product, device/realme/RMX3371/device.mk)
 
-# Inherit some common Evolution X stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common Project Elixir stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_SUPPORTS_TOUCHGESTURES := true
-TARGET_USES_PICO_GAPPS := true
-EVO_BUILD_TYPE := OFFICIAL
+ELIXIR_BUILD_TYPE := OFFICIAL
+IS_PHONE := true
+BUILD_USERNAME := Abhis
+BUILD_HOSTNAME := Elixir
 
-PRODUCT_NAME := evolution_RMX3371
+PRODUCT_NAME := aosp_RMX3371
 PRODUCT_DEVICE := RMX3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
