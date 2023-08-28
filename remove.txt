@@ -1,0 +1,6 @@
+device/realme
+vendor/realme
+kernel/realme
+hardware/oplus
+hardware/lineage/compat
+packages/apps/GCamGOPrebuilt
