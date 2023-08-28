@@ -1,0 +1,8 @@
+device/realme
+vendor/realme
+kernel/realme
+hardware/oplus
+hardware/lineage/compat
+packages/apps/GCamGOPrebuilt
+hardware/qcom-caf/sm8250/display
+hardware/qcom-caf/sm8250/audio
