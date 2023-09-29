@@ -17,7 +17,7 @@ git clone --depth=1 https://github.com/abhis699/kernel_realme_sm8250 -b spartan-
 echo 'Cloning Hardware Oplus [4/4]'
 # Hardware Oplus
 rm -rf hardware/oplus
-git clone --depth=1 https://github.com/abhis699/hardware_oplus_kona -b dolby hardware/oplus
+git clone --depth=1 https://github.com/abhis699/hardware_oplus_kona hardware/oplus
 
 echo 'Sync some stuff from lineage'
 #Lineage Compat
