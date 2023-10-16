@@ -69,7 +69,7 @@ function blob_fixup() {
             sed -i "s/^NXP_RF_CONF_BLK_10/#NXP_RF_CONF_BLK_10/" "${2}"
             ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
-            "${SIGSCAN}" -p "AB 0B 00 94" -P "1F 20 03 D5" -f "${2}"
+            "${SIGSCAN}" -p "AF 0B 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
         vendor/etc/msm_irqbalance.conf)
             sed -i "s/IGNORED_IRQ=27,23,38$/&,115,332/" "${2}"
