@@ -12,7 +12,7 @@ git clone --depth=1 https://github.com/ProjectElixir-Devices/proprietary_vendor_
 echo 'Cloning Kernel tree [3/4]'
 # Kernel Tree
 rm -rf kernel/realme/sm8250
-git clone --depth=1 https://github.com/abhis699/kernel_realme_sm8250 -b spartan-AOSP kernel/realme/sm8250
+git clone --depth=1 https://github.com/abhis699/kernel_realme_sm8250 -b AGNi-AOSP kernel/realme/sm8250
 
 echo 'Cloning Hardware Oplus [4/4]'
 # Hardware Oplus
