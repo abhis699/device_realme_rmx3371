@@ -31,7 +31,7 @@ git clone --depth=1 https://github.com/abhis699/hardware_oplus_kona -b elixir ha
 echo 'Sync some stuff from lineage'
 #Lineage Compat
 rm -rf hardware/lineage/compat
-git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat
+git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git -b lineage-21.0 hardware/lineage/compat
 
 echo 'Sync GCamGOPrebuilt'
 #GCamGOPrebuilt
