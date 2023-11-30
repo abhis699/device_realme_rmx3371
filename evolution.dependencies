@@ -1,0 +1,14 @@
+[
+  {
+    "repository"  : "abhis699/hardware_oplus_kona",
+    "target_path" : "hardware/oplus"
+  },
+  {
+    "repository"  : "abhis699/kernel_realme_sm8250",
+    "target_path" : "kernel/realme/sm8250"
+  },
+  {
+    "repository"  : "packages_apps_OPlusExtras",
+    "target_path" : "packages/apps/OPlusExtras"
+  }
+]
